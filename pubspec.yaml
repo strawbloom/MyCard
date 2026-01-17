@@ -1,0 +1,53 @@
+name: my_card_estrutura_inicial_flutter_main
+description: "my card"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.2
+  google_fonts: ^7.0.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  assets:
+    - assets/img/
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSans-Regular.ttf
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+        - asset: assets/fonts/GoogleSans-BoldItalic.ttf
+        - asset: assets/fonts/GoogleSans-Medium.ttf
+        - asset: assets/fonts/GoogleSans-MediumItalic.ttf
+        - asset: assets/fonts/GoogleSans-SemiBold.ttf
+        - asset: assets/fonts/GoogleSans-SemiBoldItalic.ttf
+  uses-material-design: true
+
+flutter_native_splash:
+
+  color: "#FFFFFF"
+  image: assets/icon-2.png
+  fullscreen: true
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#FFFFFF"
+    image: assets/icon-2.png
+    image_dark: assets/icon-2.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
