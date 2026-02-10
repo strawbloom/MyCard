@@ -18,7 +18,7 @@ class fifteen extends StatelessWidget {
                 color: Colors.black,
                 child: Center(
                   child: Text(
-                    'Text goes here',
+                    '',
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w500,
@@ -32,13 +32,13 @@ class fifteen extends StatelessWidget {
                 width: 100.0,
                 height: 100.0,
                 color: Colors.white,
-                child: Center(child: Text('2nd text goes here')),
+                child: Center(child: Text('')),
               ),
               Container(
                 width: 100.0,
                 height: 100.0,
                 color: Colors.blueGrey,
-                child: Center(child: Text('3rd text goes here')),
+                child: Center(child: Text('')),
               ),
             ],
           ),
