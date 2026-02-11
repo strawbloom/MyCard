@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-// funçao pra ver se o link funciona
 Future<void> _launchUrl(String urlString) async {
   final Uri url = Uri.parse(urlString);
   if (!await launchUrl(url)) {
